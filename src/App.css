@@ -1,0 +1,261 @@
+.App {
+  background-color: var(--menubackground);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: Consolas, monospace;
+  font-size: calc(11px + 0.5vmin);
+  color: var(--foreground);  
+}
+
+#toptext
+{
+  padding: 8px 0px 0px 0px
+}
+
+#icon {
+  margin: 5px 3px 2px 4px;
+  position: flex;
+  left:0px;
+  align-self: flex-start;
+}
+
+.TopBar {
+  align-content: flex-start;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  vertical-align: middle;
+  background-color: var(--headerbackground);
+}
+
+.AppMain {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.SideBar
+{
+  padding-right: 0.5vmin;
+  border-top: 1px solid var(--linecolor);
+  background-color: var(--menubackground);
+  display: flex;
+  top: 0px;
+  flex-direction: row;
+  position: sticky;
+  width:16%;
+  max-width: 220px;
+  height: 100vmax;
+}
+
+a:link {
+  color: var(--blue);
+}
+a:visited {
+ color: var(--purple);
+}
+
+.LinksBar {
+  border-left: 1.5vmin solid var(--leftbar);
+  
+  height: 100%;
+  width:100%;
+  position:sticky;
+  display: flex;
+  flex-direction: row;
+}
+.AllLinks {
+  background-color: var(--menubackground);
+  padding-left: 0.5vmin;
+  width: 100%;
+  height: 100%;
+  font-weight: bold;
+  align-content: right;
+  right: 0px;
+  text-align: right;
+
+}
+
+.LeftBar
+{
+  width: 20%;
+  height: 100%;
+  background-color: var(--leftbar);
+  display:block;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+}
+
+#LinksLabel {
+  transform: rotate(-90deg) ;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.Comment {
+  color: var(--comment);
+}
+
+.AppSection {
+  margin-left: 2vmin;
+  padding-bottom: 10px;
+  width: 95%;
+  border-left: 1px solid var(--linecolor);
+}
+
+
+.AppBody {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: flex-start;
+  background-color: var(--background);
+  width:fit-content;
+  top: 0px;
+  right:0px;
+}
+.FileSymbol {
+  font-weight: bold;
+}
+.TabSubtitle div {
+  margin: 0px 1vmin 0px 1vmin;
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+}
+.TabTopRow div {
+  margin: 5px 10px 5px 10px;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+
+.TabTopRow {
+  padding: 0px 1vmin 0px 1vmin ;
+  width:fit-content;
+  display: flex;
+  flex-direction: row;
+  background-color: var(--background);
+  color: var(--foreground);
+}
+.TabSubtitle {
+
+  margin: 0px;
+  padding: 0px 0vmin 1vmin 1vmin ;
+  background-color: var(--background);
+  display: flex;
+  flex-direction: row;
+  width:auto;
+}
+
+.SectionHeader
+{
+  border-top: 1px solid var(--linecolor);
+  background-color: var(--menubackground);
+  color: var(--graytext);
+  justify-content: left;
+  text-align: left;
+  width: 100%;
+}
+
+.SectionBody {
+  padding: 0px 0px 4vmin 2vmin;
+  text-align: left;
+  width: 95%;
+  word-wrap: normal;
+}
+
+.SectionText
+{
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow: visible;
+  text-align: left;
+}
+
+.Minimize {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  color: var(--foreground);
+}
+
+.Minimize:hover {
+  background-color: var(--leftbar);
+  border-radius: 19%;  
+}
+
+.App-link {
+  color: var(--blue);
+}
+
+.CodePreview {
+  object-position: inherit;
+  width: 80%;
+  line-height: 1.05;
+  border-radius: 2vmin;
+}
+
+#YoutubeDemo {
+  width: 720px;
+  height: 430px;
+  margin: 10px 0px 10px 0px;
+}
+
+pre {
+  text-align:left;
+  width:100%;
+}
+
+.Snippet {
+  background-color: var(--background);
+  color: var(--foreground);
+  height: 100%;
+  width: 100%;
+}
+
+p {
+  margin: 0px;
+}
+#ResumePDF
+{
+  position:relative;
+  width:100%;
+  min-height: 97vmin;
+}
+
+:root {
+  /* part vscode defaults part monokai */
+  --background: #1E1E1E;
+  --blue: #569CD6;
+  --brightyellow: #E5E510;  
+  --comment: #6A9955;
+  --foreground: #D4D4D4;
+  --graytext: #8C8C8C;
+  --green: #A6E22E;
+  --headerbackground: #3C3C3C;
+  --leftbar: #333333;
+  --lightblue: #9CDCFe;
+  --lightorange: #E69F66;
+  --linecolor: #414141;
+  --magenta: #B00B69;
+  --menubackground: #252526;
+  --orange: #FD971F;
+  --purple: #C586C0;
+  --red: #F92672;
+  --seagreen: #0BB052;
+  --string: #CE9178;
+  --teal: #3AC9A2;
+  --yellow: #FFB517;
+}
