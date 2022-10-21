@@ -24,7 +24,7 @@ class Links extends React.Component {
                     <div className="WebLinks" >
                     <div className="SectionText">Web</div>
                         <a href="https://github.com/DirePeacock">Github</a><br/>
-                        <a href="https://twitter.com/DirePeacock">Twitter</a>
+                        <a href="https://www.linkedin.com/in/walter-whitaker-4b457383/">LinkedIn</a>
                     </div>
                 </div>
             </div>);

@@ -6,7 +6,7 @@ class AlternateSite extends React.Component {
         return (
             <div className="AppSection" >
                 <div className="SectionBody">
-                    The Primary version of this website is under the screenname on my public github & socials.<br/>
+                    The primary version of this website is under the screenname on my public github & socials.<br/>
                     <a href={this.props.data['psuedonymurl']}>{this.props.data['psuedonym']}</a>
                     
                     <p className="Comment"><br/>{comment}</p>
