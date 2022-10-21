@@ -1,6 +1,6 @@
 {
-  "name": "dp_githubpage",
-  "homepage": "https://direpeacock.github.io/aboutme",
+  "name": "tww_githubpage",
+  
   "version": "0.1.0",
   "private": true,
   "module": "App.js",
