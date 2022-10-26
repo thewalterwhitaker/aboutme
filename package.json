@@ -1,6 +1,6 @@
 {
   "name": "tww_githubpage",
-  
+  "homepage": "https://thewalterwhitaker.github.io/aboutme",
   "version": "0.1.0",
   "private": true,
   "module": "App.js",
