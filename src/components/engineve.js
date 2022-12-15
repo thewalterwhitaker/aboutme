@@ -25,7 +25,7 @@ class EngineVe extends React.Component {
                     </div>
                     <div class="SectionText"><br /><a href="https://github.com/DirePeacock/engineve">HERE'S THE CODE ON GITHUB</a></div>
                     <div class="SectionText">
-                        <br /><br />This is what a character sheet looks like in yaml for this engine. As seen nearly dying in the first encounter of the <a href="https://youtu.be/amkWdVr7CEU?list=PLfhDkg906URf-h_3vdBa4-6zXpHIYSz1n">demo video.</a>
+                        <br /><br />This is what a character sheet looks like in yaml for this engine. As seen in the the <a href="https://youtu.be/amkWdVr7CEU?list=PLfhDkg906URf-h_3vdBa4-6zXpHIYSz1n">demo video.</a>
                     </div>
 
                     <SyntaxHighlighter className="CodePreview"
